@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="navbar" id="ide">
+        <div class="logo">ZOOM</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#product">Shop</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="cart.html" id="cart-link">Cart (0)</a></li>
+            <li class="search-container">
+                <button class="search-link" onclick="toggleSearch()" ><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" class="search-input" id="searchInput" placeholder="Search..." > 
+            </li>
+        </ul>
+    </nav>
+    
+    
+    <header class="hero">
+        <div class="hero-content">
+             <h1>ZOOM</h1>
+            <h1>Elevate Your Style</h1>
+            <p>Discover the latest trends in fashion and express yourself with our unique collections.</p>
+            <a href="#product" class="cta-button">Shop Now</a>
+            </div> 
+        <div class="hero-image">
+              <img src="C:\Users\Ahmed Abrar\Downloads\aiudn4dd-removebg-preview.png" alt="Fashion Model">  
+
+        </div>
+           </header>
+
+
+
+
+<!-- Product Section -->
+
+
+
+<div id="product" class="product">
+    <!-- Product 1 -->
+    <div class="product-card" data-product-id="1">
+      <img src="srcimg\shoe1.jpg" alt="Product Image" class="product-image">
+      <h2 class="product-title">Sneakers 1</h2>
+      <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+      <p class="product-price">$29.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  
+    <!-- Product 2 -->
+    <div class="product-card" data-product-id="2">
+      <img src="srcimg\shoe2.jpg" alt="Product Image" class="product-image">
+      <h2 class="product-title">Sneakers 2</h2>
+      <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+      <p class="product-price">$39.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  
+    <!-- Product 3 -->
+    <div class="product-card" data-product-id="3">
+      <img src="srcimg\shoe3.jpg" alt="Product Image" class="product-image">
+      <h2 class="product-title">Sneakers 3</h2>
+      <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+      <p class="product-price">$19.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  
+    <!-- Product 4 -->
+    <div class="product-card" data-product-id="4">
+      <img src="srcimg\shoe4.jpg" alt="Product Image" class="product-image">
+      <h2 class="product-title">Sneakers 4</h2>
+      <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+      <p class="product-price">$49.99</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <!-- product 1 -->
+    <div class="product-card" data-product-id="1">
+        <img src="C:\Users\Ahmed Abrar\Downloads\20a.jpg" alt="Product Image" class="product-image">
+        <h2 class="product-title">Formal Shirts 1</h2>
+        <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+        <p class="product-price">$29.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    
+      <!-- Product 2 -->
+      <div class="product-card" data-product-id="2">
+        <img src="C:\Users\Ahmed Abrar\Downloads\20a-1.jpg" alt="Product Image" class="product-image">
+        <h2 class="product-title">Formal Shirts 2</h2>
+        <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+        <p class="product-price">$39.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    
+      <!-- Product 3 -->
+      <div class="product-card" data-product-id="3">
+        <img src="C:\Users\Ahmed Abrar\Downloads\WhatsApp-Image-2024-12-04-at-2.19.27-PM-600x600.jpeg" alt="Product Image" class="product-image">
+        <h2 class="product-title">Formal Shirts 3</h2>
+        <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+        <p class="product-price">$19.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    
+      <!-- Product 4 -->
+      <div class="product-card" data-product-id="4">
+        <img src="C:\Users\Ahmed Abrar\Downloads\WhatsApp-Image-2024-12-04-at-2.19.42-PM-600x600.jpeg" alt="Product Image" class="product-image">
+        <h2 class="product-title">Formal Shirts 4</h2>
+        <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+        <p class="product-price">$49.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+       <!-- Product 1 -->
+    <div class="product-card" data-product-id="1">
+        <img src="srcimg\jacket1.webp" alt="Product Image" class="product-image">
+        <h2 class="product-title">Jacket 1</h2>
+        <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+        <p class="product-price">$29.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    
+      <!-- Product 2 -->
+      <div class="product-card" data-product-id="2">
+        <img src="srcimg\jacket2.webp" alt="Product Image" class="product-image">
+        <h2 class="product-title">Jacket 2</h2>
+        <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+        <p class="product-price">$39.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    
+      <!-- Product 3 -->
+      <div class="product-card" data-product-id="3">
+        <img src="srcimg\jacket3.webp" alt="Product Image" class="product-image">
+        <h2 class="product-title">Jacket 3</h2>
+        <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+        <p class="product-price">$19.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    
+      <!-- Product 4 -->
+      <div class="product-card" data-product-id="4">
+        <img src="srcimg\jacket4.webp" alt="Product Image" class="product-image">
+        <h2 class="product-title">Jacket 4</h2>
+        <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nobis laborum sit itaque </p>
+        <p class="product-price">$49.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  
+  <!-- Product 1 -->
+  
+ 
+
+
+
+    <div id="Contact" class="contact-container">
+        <div class="contact-card">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Fill out the form below.</p>
+            
+            <form id="contactForm">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button class="button" type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="backToTop">
+        <a href="#ide" class="dontNo">Back To Top</a>
+     </div>
+    
+ <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Get to Know Us</h3>
+            <ul>
+                <li><a href="aboutUs.html">About ZOOM</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press Releases</a></li>
+                <li><a href="#">Sustainability</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Shop with Us</h3>
+            <ul>
+                <li><a href="#">Your Account</a></li>
+                <li><a href="#">Shipping Rates & Policies</a></li>
+                <li><a href="#">Returns & Replacements</a></li>
+                <li><a href="#">Gift Cards</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Let Us Help You</h3>
+            <ul>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Track Your Order</a></li>
+                <li><a href="#">Report an Issue</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Let Us Help You</h3>
+            <ul>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Track Your Order</a></li>
+                <li><a href="#">Report an Issue</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 ZOOM. All Rights Reserved.</p>
+    </div>
+</footer> 
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

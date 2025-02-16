@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZOOM - Men's Clothing Store</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    .heading {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: goldenrod;
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .section-1 {
+      color: black;
+    }
+    h3 {
+      color: goldenrod;
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+    ul li {
+      font-size: 18px;
+      margin: 5px 0;
+      position: relative;
+    }
+    ul li::before {
+      content: '\2022';
+      color: goldenrod;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    footer{
+      width: 100%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      font-size: larger;
+      text-decoration: none;
+      color: goldenrod;
+    }
+    a{
+      text-decoration: none;
+      color: goldenrod;
+    }
+  </style>
+</head>
+<body>
+  <div class="heading">
+    <h1>Welcome to ZOOM</h1>
+  </div>
+
+  <div class="container">
+    <div class="section-1">
+      <h3>What is ZOOM?</h3>
+      <p>ZOOM is a premium men's clothing store offering a wide range of stylish and high-quality fashion items.</p>
+      <p>Here we sell:</p>
+      <ul>
+        <li>Jackets</li>
+        <li>Shirts</li>
+        <li>Pants</li>
+        <li>Trousers</li>
+        <li>Belts</li>
+        <li>Shoes</li>
+        <li>Money and Card Holders</li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <a href="index.html">Back To Home</a>
+  </footer>
+</body>
+</html>
